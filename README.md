@@ -4,16 +4,13 @@
 
 I am a Computer Science student at the **University of Leeds** (First Class Honours) with a deep focus on **Machine Learning Infrastructure**. I have previous experience from internships and projects in building AI solutions, and optimising existing LLMs to improve inference perfromance.
 
-Currently, I am researching **Mixture-of-Experts (MoE) inference on memory-constrained multi-GPU systems** for my dissertation.
-
 ---
 
-### 🚀 Key Focus Areas
+### 🚀 Current Focus Areas
 
-* **LLM Inference Optimization:** Profiling and optimizing throughput/latency for large models (vLLM,sgLang,NVIDIA Dynamo, Mooncake).
-* **GPU Profiling:** Using Nsight Systems and NVTX to identify compute vs. memory bottlenecks.
-* **Distributed Systems:** Building scalable pipelines on Azure and training Transformers with DDP.
-* **Pragmatic AI:** Building privacy-compliant, local-first AI tools that solve actual developer pain points.
+## Dissertation: Making Mixture-of-Experts inference more viable on VRAM constrained systems.
+
+Developing a novel dynamic KV-cache / Expert weight memory allocator (based on workload) with a unified paging systems (built on top of vLLM) to make inference more resource-efficient.
 
 ---
 
